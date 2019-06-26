@@ -1,11 +1,4 @@
 forList = [0,1,2,3,4,5]
-
-for c in forList:
-    print(c)
-else:
-    print('for success')
-
-
 dictionaryTest = {
     'a':1,
     'b':2,
@@ -13,7 +6,12 @@ dictionaryTest = {
     'd':4,
 }
 
-for c in dictionaryTest:
-    print(dictionaryTest[c])
-else:
-    print('for success')
+
+def forDef(array):
+        for a in array:
+            print(a)
+        else:
+            print('for ended')
+
+forDef(forList)
+forDef(dictionaryTest)
