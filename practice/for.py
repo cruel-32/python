@@ -8,10 +8,13 @@ dictionaryTest = {
 
 
 def forDef(array):
-        for a in array:
-            print(a)
-        else:
-            print('for ended')
+    for a in array:
+        print(a)
+    else:
+        print('for ended')
 
 forDef(forList)
 forDef(dictionaryTest)
+
+
+listTest = [1,2,3,4,5]
