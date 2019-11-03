@@ -13,3 +13,17 @@ st = '''한글 띄어
 쓰기
 '''
 print(st)
+
+stTest0 = '123456789ABCDEFG'
+print(stTest0[9:] + stTest0[:8])
+
+
+stTest1 = '1{0:^20}1'
+print(stTest1.format("hi"))
+
+
+stTest2 = '1{0:!^20}1'
+print(stTest2.format("hi"))
+
+
+
