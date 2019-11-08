@@ -1,3 +1,12 @@
+forTest = ['a', 'b', 'c', 'd', 'e']
+
+print('forTest : ', forTest)
+
+for i in forTest:
+    print('forTest', i)
+
+print('forTest : ', forTest)
+
 forList = [0, 1, 2, 3, 4, 5]
 
 dictionaryTest = {
@@ -7,6 +16,7 @@ dictionaryTest = {
     'd': 4,
 }
 
+print("dictionaryTest : ", dictionaryTest);
 
 def forDef(array):
     for a in array:
@@ -17,6 +27,9 @@ def forDef(array):
 
 forDef(forList)
 forDef(dictionaryTest)
+
+print("dictionaryTest : ", dictionaryTest);
+
 
 tp = [num * 3 for num in [3, 2, 1]]
 
