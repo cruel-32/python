@@ -15,7 +15,6 @@ def getBitwise(n,arr1,arr2):
                 txt=' '+txt
         if(len(txt) < 6):
             txt = txt.rjust(6, ' ')
-            print('fill')
         arr3.append(txt)
     return arr3
 print( getBitwise(5,[9,20,28,18,11],[30,1,21,17,28]) )
