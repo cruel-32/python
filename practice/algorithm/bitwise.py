@@ -1,4 +1,3 @@
-
 import math
 
 def getBitwise(n,arr1,arr2):
