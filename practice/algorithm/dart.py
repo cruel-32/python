@@ -21,8 +21,7 @@ def getStringScores(strScore):
             tmpNumber+=' * (-1)'
         if(scoreChar[2] == '*'):
             if(i != 0):
-                prevNumber = stringScores[i-1]
-                stringScores[i-1] = (prevNumber+' * 2')
+                stringScores[i-1] += ' * 2'
             tmpNumber+=' * 2'
         stringScores.append(tmpNumber)
     return ' + '.join(stringScores)
