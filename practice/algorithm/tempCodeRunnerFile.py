@@ -1,2 +1,1 @@
- m in range(half):
-            #     print('m : 
+half+1
